@@ -1,0 +1,30 @@
+body {
+    color:white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#userDetails {
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    border-style: ridge;
+    border-width: 7px;
+    border-color: coral;
+    padding: 100px;
+    margin: 50px; 
+    gap: 10px;
+    line-height: 2;
+}
