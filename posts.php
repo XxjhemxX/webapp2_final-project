@@ -46,29 +46,5 @@ try {
     ";
 ?>
 
-
-  
-  
-  <!-- <script>
-      const urlParams = new URLSearchParams(window.location.search);
-      const id = urlParams.get('id');
-      
-      fetch('https://jsonplaceholder.typicode.com/users/' + id)
-      .then((data)=>{
-          return data.json();
-      })
-      .then((user)=>{
-          let name = document.getElementById('name');
-          let username = document.getElementById('username');
-          let email = document.getElementById('email');
-          let website = document.getElementById('website');
-
-          name.textContent = user.name;
-          username.textContent = user.username;
-          email.textContent = user.email;
-          website.textContent = user.website;
-      })
-
-  </script> -->
 </body>
 </html>
