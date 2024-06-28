@@ -3,7 +3,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/bg3.jpg);
+    background-size:cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
