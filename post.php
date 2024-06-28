@@ -24,7 +24,7 @@ try {
 
 <body>
 
-  <h1>List of Users</h1>
+  <h1>Name of Employees</h1>
 
   <?php
   $query = "SELECT * FROM users";
@@ -46,25 +46,5 @@ try {
 
 ?>
 
-  <!-- <script>
-      fetch('https://jsonplaceholder.typicode.com/users')
-      .then((data)=>{
-          return data.json();
-      })
-      .then((users)=>{
-          console.log(users);
-          let ul=document.getElementById('userList');
-
-          let li = '';
-          for(let i=0;i<users.length;i++) {
-              li = li + `<li><a href="posts.html?id=${users[i].id}">${users[i].name}</a></li>`;
-          }
-
-          console.log(li);
-
-          ul.innerHTML=li;
-      })
-      
-  </script> -->
 </body>
 </html>
